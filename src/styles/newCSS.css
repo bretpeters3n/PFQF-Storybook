@@ -1,0 +1,17 @@
+/* .sb-main-padded.sb-show-main #storybook-root .storybook-button--medium {
+  padding: 11px 20px;
+  font-size: 14px;
+} */
+
+:root {
+  --qf-greyGreen: #2e644a;
+  --qf-green: #006400;
+  --pf-orange: #ff8c00;
+}
+a {
+  color: #fd7a01;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}

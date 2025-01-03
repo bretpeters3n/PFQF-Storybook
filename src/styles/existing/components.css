@@ -1,0 +1,98 @@
+.predictiveSearchResults {
+  position: absolute;
+  z-index: 999999;
+  background-color: hsl(0, 100%, 100%);
+  width: 100%;
+  border: 1px solid hsl(0, 1%, 60%);
+}
+.predictiveSearchHolder {
+  position: relative;
+}
+.predictiveSearchCategory {
+  background: hsl(47, 100%, 89%);
+}
+.predictiveSearchResults .selectedResult {
+  text-decoration: underline;
+}
+.predictiveSearchResults a {
+  text-decoration: none;
+}
+.predictiveSearchResults > * {
+  color: black;
+  padding: 3px 4px;
+}
+.CMSBanner {
+  overflow: hidden;
+  display: block;
+}
+#pageloader {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: none;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+#pageloader div {
+  left: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+  position: absolute;
+  top: 50%;
+}
+.StoryList {
+  display: flex;
+  margin: 2px 0;
+  justify-content: space-between;
+  background: #f1f3f3;
+  padding-left: 12px;
+  transition: filter 250ms ease;
+  width: 100%;
+}
+.StoryListTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding: 0 20px 0 0;
+}
+.StoryListTitle h3 {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  font-size: 0.9em;
+  color: #fd7a01;
+}
+.StoryListTitle h2 {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  font-size: 1.04em;
+  font-weight: 700;
+  color: #212121;
+}
+.StoryListTitle h2 a {
+  color: #212121;
+}
+.StoryListTitle h2 a:hover,
+.StoryList:hover h2 a {
+  color: black;
+  text-decoration: none;
+}
+.StoryListTitle h3 a:hover,
+.StoryList:hover h3 {
+  color: #c55f01;
+  text-decoration: none;
+}
+.StoryList:hover {
+  filter: brightness(95%);
+}
+.StoryList > a {
+  min-width: 138px;
+  width: 92px;
+  height: 92px;
+}
+.StoryList img {
+  min-width: 138px;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}

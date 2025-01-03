@@ -1,0 +1,72 @@
+/* Original start */
+/* .storybook-button {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3em;
+  font-weight: 700;
+  line-height: 1;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.storybook-button--primary {
+  background-color: #1ea7fd;
+  color: white;
+}
+.storybook-button--secondary {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  background-color: transparent;
+  color: #333;
+}
+.storybook-button--small {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+.storybook-button--medium {
+  padding: 11px 20px;
+  font-size: 14px;
+}
+.storybook-button--large {
+  padding: 12px 24px;
+  font-size: 16px;
+} */
+/* Original end */
+
+/* New start */
+:root {
+  --qf-greyGreen: #2e644a;
+  --qf-green: #006400;
+  --pf-orange: #ff8c00;
+}
+.storybook-button {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  line-height: 1.5;
+  border-style: none;
+}
+.storybook-button--primary {
+  background-color: var(--qf-green);
+  color: white;
+}
+.storybook-button--secondary {
+  box-shadow: var(--qf-green) 0px 0px 0px 2px inset;
+  background-color: transparent;
+  color: var(--qf-green);
+}
+.storybook-button--small {
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.storybook-button--medium {
+  padding: 5px 40px;
+  font-size: 18px;
+}
+.storybook-button--large {
+  padding: 5px 60px;
+  font-size: 20px;
+}
+/* New end */

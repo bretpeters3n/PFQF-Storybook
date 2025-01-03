@@ -1,0 +1,82 @@
+.rating_sm .CntRatingContent .ratingStar,
+.rating_sm .CntRatingContent .ratingStar.filledRatingStar,
+.rating_sm .BoardCntRating .ratingStar,
+.rating_sm .BoardCntRating .ratingStar.filledRatingStar,
+.rating_sm .productRatingMessage .ratingStar,
+.rating_sm .productRatingMessage .ratingStar.filledRatingStar {
+  height: 13px;
+  width: 13px;
+  display: block;
+  margin-top: -5px;
+  background: url("/App_Themes/screenPheasants/Images/FilledStar.gif") no-repeat;
+  background-size: contain;
+}
+.CntRatingContent .ratingStar,
+.CntRatingContent .ratingStar.filledRatingStar,
+.BoardCntRating .ratingStar,
+.BoardCntRating .ratingStar.filledRatingStar,
+.productRatingMessage .ratingStar,
+.productRatingMessage .ratingStar.filledRatingStar {
+  height: 20px;
+  width: 20px;
+  display: block;
+  background: url("/App_Themes/screenPheasants/Images/FilledStar.gif") no-repeat;
+  background-size: contain;
+}
+.CntRatingContent .ratingStar.emptyRatingStar,
+.BoardCntRating .ratingStar.emptyRatingStar,
+.productRatingMessage .ratingStar.emptyRatingStar {
+  background: url("/App_Themes/screenPheasants/Images/EmptyStar.gif") no-repeat;
+  background-size: contain;
+}
+.BoardCntRating {
+  position: relative;
+}
+.CntRatingContent div[disabled="disabled"] a,
+.productRatingMessage a {
+  cursor: default;
+}
+.productRatingMessage {
+  position: relative;
+  top: 3px;
+  left: 10px;
+  padding-left: 30px;
+}
+.rating-star {
+  cursor: pointer;
+  display: block;
+  background-repeat: no-repeat;
+  color: #403e3d;
+}
+.rating-star:last-of-type {
+  margin-right: 6px;
+}
+.disabled .rating-star {
+  cursor: default;
+}
+.saved-rating-star {
+  color: #b12628;
+}
+.rating_sm .cms-icon-80 {
+  font-size: 13px;
+  height: 13px;
+  width: 16px;
+  padding: 0;
+}
+.cms-icon-80 {
+  font-size: 16px;
+  height: 20px;
+  width: 20px;
+}
+.saved-rating-star {
+  color: #b12628;
+}
+.product-rating .split-right {
+  margin-top: 3px;
+}
+.product_sm .split-left {
+  margin-top: 4px;
+}
+.feedback .disabled .rating-star {
+  margin-top: -5px;
+}

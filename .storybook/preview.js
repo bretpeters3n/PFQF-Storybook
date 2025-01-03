@@ -1,0 +1,19 @@
+import "../src/styles/newCSS.css";
+
+export default {
+  parameters: {},
+};
+
+// /** @type { import('@storybook/html').Preview } */
+// const preview = {
+//   parameters: {
+//     controls: {
+//       matchers: {
+//         color: /(background|color)$/i,
+//         date: /Date$/i,
+//       },
+//     },
+//   },
+// };
+
+// export default preview;
