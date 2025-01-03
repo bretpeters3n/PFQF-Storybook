@@ -16,9 +16,6 @@
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_55d75fb90319359"
-  },
-  "name": "pfqf-storybook",
-  "version": ".1"
+    "build-storybook": "storybook build"
+  }
 }
